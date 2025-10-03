@@ -1,42 +1,42 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <title>STM Bus — Favourites</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="/style.css" />
+    <meta charset="utf-8" />
+    <title>STM Bus — Favourites</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
-  <header>
-    <h1>STM Bus — Favourites</h1>
-  </header>
+    <header>
+        <h1>STM Bus — Favourites</h1>
+    </header>
 
-  <main>
-    <section class="add">
-      <h2>Add favourite</h2>
-      <form id="addForm">
-        <input id="stopInput" placeholder="Stop code or ID (e.g., 50410)" required />
-        <input id="nameInput" placeholder="Nickname (e.g., Home)" required />
-        <button>Add</button>
-      </form>
-      <p class="hint">Tip: numeric stop <b>code</b> is easiest.</p>
-    </section>
+    <main>
+        <section class="add">
+            <h2>Add favourite</h2>
+            <form id="addForm">
+                <input id="stopInput" placeholder="Stop code or ID (e.g., 50410)" required />
+                <input id="nameInput" placeholder="Nickname (e.g., Home)" required />
+                <button>Add</button>
+            </form>
+            <p class="hint">Tip: numeric stop <b>code</b> is easiest.</p>
+        </section>
 
-    <section>
-      <h2>My favourites</h2>
-      <ul id="favList"></ul>
-    </section>
+        <section>
+            <h2>My favourites</h2>
+            <ul id="favList"></ul>
+        </section>
 
-    <section id="output" hidden>
-      <h2 id="title"></h2>
-      <div id="results"></div>
-    </section>
-  </main>
+        <section id="output" hidden>
+            <h2 id="title"></h2>
+            <div id="results"></div>
+        </section>
+    </main>
 
-  <footer>
-    <small>Data © STM (CC BY 4.0) — Personal use only</small>
-  </footer>
+    <footer>
+        <small>Data © STM (CC BY 4.0) — Personal use only</small>
+    </footer>
 
-  <script src="/app.js"></script>
+    <script src="/app.js"></script>
 </body>
 </html>
