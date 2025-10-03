@@ -1,19 +1,10 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.sqlite
-*.db
+# Node
+node_modules/
+npm-debug.log*
+dist/
+.cache/
 
-# Envs & secrets
+# Secrets & local config
 .env
 .env.*
-*.env
-
-# macOS
-.DS_Store
-
-# Editors
-.vscode/
-.idea/
+data/
